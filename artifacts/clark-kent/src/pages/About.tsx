@@ -1,6 +1,7 @@
 import { Compass, Heart, Rocket, GraduationCap, Users } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { paletteFor } from "@/lib/palette";
+import headshot from "@/assets/headshot.jpeg";
 
 const journeyBlocks = [
   {
@@ -45,11 +46,28 @@ const leadership = [
 export default function About() {
   return (
     <>
-      <PageHero
-        eyebrow="About"
-        title="My teaching journey"
-        description="Over 15 years supporting multilingual learners across Korea, China, and international school contexts — with a focus on PYP, WIDA, and upper elementary students."
-      />
+      <section className="border-b border-[var(--color-line)] bg-gradient-to-b from-[var(--color-brand-50)] to-[var(--color-paper-alt)]">
+        <div className="mx-auto flex max-w-6xl flex-col-reverse items-center gap-10 px-6 py-20 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex-1">
+            <p className="text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-600)]">
+              About
+            </p>
+            <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--color-ink)] sm:text-5xl">
+              My teaching journey
+            </h1>
+            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-[var(--color-ink-soft)]">
+              Over 15 years supporting multilingual learners across Korea,
+              China, and international school contexts — with a focus on
+              PYP, WIDA, and upper elementary students.
+            </p>
+          </div>
+          <img
+            src={headshot}
+            alt="Federico Orozco"
+            className="h-40 w-40 flex-shrink-0 rounded-full border-4 border-[var(--color-surface)] object-cover shadow-lg sm:h-48 sm:w-48"
+          />
+        </div>
+      </section>
 
       <section className="bg-[var(--color-paper)]">
         <div className="mx-auto max-w-4xl px-6 py-16 space-y-8">

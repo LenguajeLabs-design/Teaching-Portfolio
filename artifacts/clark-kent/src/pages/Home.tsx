@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { projects } from "@/data/projects";
 import { paletteFor, paletteForTag } from "@/lib/palette";
+import headshot from "@/assets/headshot.jpeg";
 
 const featureCards = [
   {
@@ -34,44 +35,51 @@ export default function Home() {
   return (
     <>
       <section className="border-b border-[var(--color-line)] bg-gradient-to-b from-[var(--color-brand-50)] via-[var(--color-paper)] to-[var(--color-paper)]">
-        <div className="mx-auto max-w-6xl px-6 py-24 sm:py-28">
-          <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-600)]">
-            <Sparkles className="h-3.5 w-3.5" />
-            Multilingual Learning · EAL Systems · AI-Assisted Education
-          </p>
-          <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-[var(--color-ink)] sm:text-6xl">
-            Federico Orozco
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[var(--color-ink-soft)] sm:text-xl">
-            I design practical, student-centered systems that help
-            multilingual learners grow, help families understand the
-            language-learning journey, and help teachers make language
-            support visible, usable, and sustainable.
-          </p>
+        <div className="mx-auto flex max-w-6xl flex-col-reverse items-center gap-12 px-6 py-24 sm:flex-row sm:items-center sm:justify-between sm:py-28">
+          <div className="flex-1">
+            <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-600)]">
+              <Sparkles className="h-3.5 w-3.5" />
+              Multilingual Learning · EAL Systems · AI-Assisted Education
+            </p>
+            <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-[var(--color-ink)] sm:text-6xl">
+              Federico Orozco
+            </h1>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[var(--color-ink-soft)] sm:text-xl">
+              I design practical, student-centered systems that help
+              multilingual learners grow, help families understand the
+              language-learning journey, and help teachers make language
+              support visible, usable, and sustainable.
+            </p>
 
-          <div className="mt-9 flex flex-wrap gap-3">
-            <Link
-              href="/projects"
-              className="inline-flex items-center gap-2 rounded-full bg-[var(--color-brand-600)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:brightness-110"
-            >
-              View My Work
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-            <Link
-              href="/teaching"
-              className="inline-flex items-center gap-2 rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
-            >
-              <GraduationCap className="h-4 w-4 text-[var(--color-brand-400)]" />
-              Teaching Philosophy
-            </Link>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-brand-700)]"
-            >
-              <MessageCircleHeart className="h-4 w-4" />
-              Contact Me
-            </Link>
+            <div className="mt-9 flex flex-wrap gap-3">
+              <Link
+                href="/projects"
+                className="inline-flex items-center gap-2 rounded-full bg-[var(--color-brand-600)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:brightness-110"
+              >
+                View My Work
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                href="/teaching"
+                className="inline-flex items-center gap-2 rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
+              >
+                <GraduationCap className="h-4 w-4 text-[var(--color-brand-400)]" />
+                Teaching Philosophy
+              </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-brand-700)]"
+              >
+                <MessageCircleHeart className="h-4 w-4" />
+                Contact Me
+              </Link>
+            </div>
           </div>
+          <img
+            src={headshot}
+            alt="Federico Orozco"
+            className="h-44 w-44 flex-shrink-0 rounded-full border-4 border-[var(--color-surface)] object-cover shadow-lg sm:h-56 sm:w-56"
+          />
         </div>
       </section>
 
