@@ -1,0 +1,1 @@
+- [Tailwind v4 dynamic class names](tailwind-v4-dynamic-classes.md) — never build class strings at runtime (e.g. `.replace()`); JIT only scans literal strings in source.

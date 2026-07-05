@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import { GraduationCap, Github, Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -6,7 +7,10 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-14">
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
-            <p className="text-lg font-semibold text-[var(--color-ink)]">
+            <p className="flex items-center gap-2 text-lg font-semibold text-[var(--color-ink)]">
+              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--color-brand-600)]">
+                <GraduationCap className="h-4 w-4 text-white" />
+              </span>
               Freddie Orozco
             </p>
             <p className="mt-2 max-w-sm text-sm leading-relaxed text-[var(--color-ink-soft)]">
@@ -45,17 +49,20 @@ export default function Footer() {
               </p>
               <ul className="mt-3 space-y-2 text-sm">
                 <li>
-                  <Link href="/contact" className="text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                  <Link href="/contact" className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                    <Mail className="h-3.5 w-3.5" />
                     Contact
                   </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                  <a href="#" className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                    <Linkedin className="h-3.5 w-3.5" />
                     LinkedIn
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                  <a href="#" className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                    <Github className="h-3.5 w-3.5" />
                     GitHub
                   </a>
                 </li>

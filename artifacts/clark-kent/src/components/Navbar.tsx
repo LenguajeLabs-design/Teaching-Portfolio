@@ -1,5 +1,6 @@
 import { Link, useLocation } from "wouter";
 import { useState } from "react";
+import { GraduationCap } from "lucide-react";
 
 const links = [
   { href: "/", label: "Home" },
@@ -18,9 +19,12 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           href="/"
-          className="text-[1.05rem] font-semibold tracking-tight text-[var(--color-ink)]"
+          className="flex items-center gap-2 text-[1.05rem] font-semibold tracking-tight text-[var(--color-ink)]"
           onClick={() => setOpen(false)}
         >
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--color-brand-600)]">
+            <GraduationCap className="h-4.5 w-4.5 text-white" />
+          </span>
           Freddie Orozco
         </Link>
 

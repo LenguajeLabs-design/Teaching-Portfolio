@@ -12,7 +12,7 @@ export default function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="border-b border-[var(--color-line)] bg-[var(--color-paper-alt)]">
+    <section className="border-b border-[var(--color-line)] bg-gradient-to-b from-[var(--color-brand-50)] to-[var(--color-paper-alt)]">
       <div className="mx-auto max-w-6xl px-6 py-20">
         {eyebrow && (
           <p className="text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-600)]">

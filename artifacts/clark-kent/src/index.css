@@ -27,6 +27,27 @@
   --color-accent-400: #7fa279;
   --color-accent-500: #62875c;
   --color-accent-600: #4c6d47;
+
+  --color-amber-50: #fdf5e8;
+  --color-amber-100: #f9e6c4;
+  --color-amber-200: #f2cd8a;
+  --color-amber-400: #e3a13c;
+  --color-amber-500: #cb8626;
+  --color-amber-700: #8a5a17;
+
+  --color-rose-50: #fbeef0;
+  --color-rose-100: #f4d5db;
+  --color-rose-200: #e7abb7;
+  --color-rose-400: #cd6a80;
+  --color-rose-500: #b84d66;
+  --color-rose-700: #832f45;
+
+  --color-indigo-50: #eef0f9;
+  --color-indigo-100: #d6dbf0;
+  --color-indigo-200: #aeb6e0;
+  --color-indigo-400: #6c74c4;
+  --color-indigo-500: #5158a8;
+  --color-indigo-700: #363b73;
 }
 
 html,
@@ -52,6 +73,7 @@ body,
 .tag-pill {
   display: inline-flex;
   align-items: center;
+  gap: 0.35rem;
   border-radius: 999px;
   padding: 0.3rem 0.85rem;
   font-size: 0.72rem;
