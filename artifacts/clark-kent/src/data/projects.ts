@@ -2,6 +2,7 @@ export interface Project {
   slug: string;
   name: string;
   url: string;
+  featured?: boolean;
   summary: string;
   problem: string;
   solution: string;
@@ -17,6 +18,7 @@ export const projects: Project[] = [
     slug: "lenguaje-labs",
     name: "Lenguaje Labs",
     url: "https://lenguajelabs-design.github.io/lenguaje-labs-site/",
+    featured: true,
     summary:
       "The main Lenguaje Labs site bringing together AI-powered tools and systems for educators, multilingual learners, and families.",
     problem:
@@ -34,6 +36,7 @@ export const projects: Project[] = [
     slug: "ealdesk-elementary",
     name: "EALDesk Elementary",
     url: "https://lenguajelabs-design.github.io/EALDesk-Elementary/",
+    featured: true,
     summary:
       "An elementary EAL teacher support hub with WIDA-aligned scaffolds, unit supports, language routines, and multilingual learner guidance.",
     problem:
@@ -51,6 +54,7 @@ export const projects: Project[] = [
     slug: "multilingual-learner-family-guide",
     name: "Multilingual Learner Family Guide",
     url: "https://lenguajelabs-design.github.io/Multilingual-Learner-Family-Guide/",
+    featured: true,
     summary:
       "A family-facing WIDA guide that explains proficiency levels and practical home support ideas in English, Spanish, Chinese, and Korean.",
     problem:
@@ -68,6 +72,7 @@ export const projects: Project[] = [
     slug: "linguaflow",
     name: "LinguaFlow",
     url: "https://hangul-flow.replit.app/",
+    featured: true,
     summary:
       "An AI-powered multilingual reading practice app that generates leveled passages, supports clickable vocabulary and romanization when needed, and helps learners save and review new words across Korean, Chinese, and Spanish.",
     problem:
@@ -150,3 +155,5 @@ export const projects: Project[] = [
     status: "Live site",
   },
 ];
+
+export const featuredProjects = projects.filter((project) => project.featured);

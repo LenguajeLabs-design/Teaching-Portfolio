@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { projects } from "@/data/projects";
+import { featuredProjects } from "@/data/projects";
 import { paletteFor, paletteForTag } from "@/lib/palette";
 import headshot from "@/assets/headshot.jpeg";
 import Reveal from "@/components/Reveal";
@@ -158,7 +158,7 @@ export default function Home() {
           </div>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2">
-            {projects.slice(0, 4).map((project, i) => {
+            {featuredProjects.map((project, i) => {
               const colors = paletteFor(i);
               return (
                 <Reveal key={project.slug} delay={i * 0.06}>
