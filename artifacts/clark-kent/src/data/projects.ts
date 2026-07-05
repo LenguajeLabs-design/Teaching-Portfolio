@@ -22,7 +22,7 @@ export const projects: Project[] = [
     logoUrl: "https://lenguajelabs-design.github.io/lenguaje-labs-site/favicon.png",
     featured: true,
     summary:
-      "The main Lenguaje Labs site bringing together AI-powered tools and systems for educators, multilingual learners, and families.",
+      "Main Lenguaje Labs site for AI-powered tools and systems that support educators, multilingual learners, and families.",
     problem:
       "My work spans multiple audiences and products, but without a clear umbrella site it is harder to show how those tools connect into one larger vision.",
     solution:
@@ -41,7 +41,7 @@ export const projects: Project[] = [
     logoUrl: "https://lenguajelabs-design.github.io/EALDesk-Elementary/favicon.svg?v=lenguaje-labs",
     featured: true,
     summary:
-      "An elementary EAL teacher support hub with WIDA-aligned scaffolds, unit supports, language routines, and multilingual learner guidance.",
+      "Elementary EAL teacher support hub with WIDA-aligned reading and writing scaffolds, unit supports, language routines, and multilingual learner guidance.",
     problem:
       "Elementary teachers need practical EAL support, but strong scaffolds, routines, and planning tools are often scattered across folders, notes, and disconnected documents.",
     solution:
@@ -60,7 +60,7 @@ export const projects: Project[] = [
     logoUrl: "https://lenguajelabs-design.github.io/Multilingual-Learner-Family-Guide/favicon.png",
     featured: true,
     summary:
-      "A family-facing WIDA guide that explains proficiency levels and practical home support ideas in English, Spanish, Chinese, and Korean.",
+      "Family-facing WIDA guide that explains English proficiency levels 1-6 and gives practical home support ideas in English, Spanish, Chinese, and Korean.",
     problem:
       "Families often receive language assessment information without enough explanation. WIDA levels can feel technical, confusing, or disconnected from what support looks like at home.",
     solution:
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     logoUrl: "https://hangul-flow.replit.app/hangul-flow-icon.png",
     featured: true,
     summary:
-      "An AI-powered multilingual reading practice app that generates leveled passages, supports clickable vocabulary and romanization when needed, and helps learners save and review new words across Korean, Chinese, and Spanish.",
+      "AI-powered multilingual reading practice app that generates leveled passages, supports clickable vocabulary, romanization when needed, saved words, and progress review.",
     problem:
       "Learners need reading practice that is level-appropriate, language-specific, and interactive, but most tools either feel too static or do not support meaningful vocabulary review.",
     solution:
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     url: "https://speak-chinese-now.replit.app/",
     logoUrl: "https://speak-chinese-now.replit.app/lili-logo.png",
     summary:
-      "A Chinese speaking practice app where learners capture words, view pinyin and meaning, hear feedback, and build a saved practice bank.",
+      "Chinese speaking practice app where learners capture words, view pinyin and meaning, hear feedback, and build a saved practice bank.",
     problem:
       "Students learning Chinese often need frequent speaking repetition and feedback, but classroom time and existing tools do not always make that easy to sustain.",
     solution:
@@ -115,7 +115,7 @@ export const projects: Project[] = [
     url: "https://scaffold.replit.app/",
     logoUrl: "https://scaffold.replit.app/icon-512.png",
     summary:
-      "An AI-powered lesson planning assistant for multilingual learner classrooms that turns rough notes into teachable plans with objectives, supports, and sentence frames.",
+      "AI-powered lesson planning assistant for multilingual learner classrooms that turns rough notes into teachable plans with objectives, supports, and sentence frames.",
     problem:
       "Lesson planning for multilingual learners takes time because teachers must translate good intentions into concrete objectives, scaffolds, and language supports.",
     solution:
@@ -133,7 +133,7 @@ export const projects: Project[] = [
     url: "https://compass-lenguajelab.replit.app/",
     logoUrl: "https://compass-lenguajelab.replit.app/favicon.svg",
     summary:
-      "A strategy finder for student support needs, including attention, executive functioning, behavior, social skills, sensory needs, EAL overlap, and support-plan building.",
+      "Strategy finder for student support needs, including attention, executive functioning, behavior, social skills, sensory needs, EAL overlap, and support-plan building.",
     problem:
       "When a student is struggling, teachers may notice the concern quickly but still need help identifying which supports are most relevant and practical.",
     solution:
