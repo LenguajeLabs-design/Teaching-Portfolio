@@ -186,6 +186,15 @@ export default function Home() {
                     <p className="mt-2 text-sm leading-relaxed text-[var(--color-ink-soft)]">
                       {project.summary}
                     </p>
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={`mt-4 inline-flex items-center gap-1.5 text-sm font-semibold ${colors.text} hover:opacity-80`}
+                    >
+                      Visit site
+                      <span aria-hidden>↗</span>
+                    </a>
                   </motion.div>
                 </Reveal>
               );

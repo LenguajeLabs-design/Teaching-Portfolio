@@ -1,4 +1,4 @@
-import { Target, Lightbulb, TrendingUp, Wrench } from "lucide-react";
+import { ArrowUpRight, Target, Lightbulb, TrendingUp, Wrench } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { projects } from "@/data/projects";
 import { paletteFor, paletteForTag } from "@/lib/palette";
@@ -47,6 +47,15 @@ export default function Projects() {
                   <p className="mt-2 text-sm leading-relaxed text-[var(--color-ink-soft)]">
                     {project.summary}
                   </p>
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`mt-4 inline-flex items-center gap-1.5 text-sm font-semibold ${colors.text} hover:opacity-80`}
+                  >
+                    Visit site
+                    <ArrowUpRight className="h-4 w-4" />
+                  </a>
 
                   <div className="mt-6 space-y-4 border-t border-[var(--color-line)] pt-6 text-sm">
                     <div className="flex gap-2.5">

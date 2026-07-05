@@ -1,6 +1,7 @@
 export interface Project {
   slug: string;
   name: string;
+  url: string;
   summary: string;
   problem: string;
   solution: string;
@@ -13,67 +14,139 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "family-guide",
-    name: "Multilingual Learner Family Guide",
+    slug: "lenguaje-labs",
+    name: "Lenguaje Labs",
+    url: "https://lenguajelabs-design.github.io/lenguaje-labs-site/",
     summary:
-      "A family-facing tool that explains WIDA levels, language growth, and practical ways to support multilingual learners at home.",
+      "The main Lenguaje Labs site bringing together AI-powered tools and systems for educators, multilingual learners, and families.",
     problem:
-      "Families often receive language assessment information without enough explanation. WIDA levels can feel technical, confusing, or disconnected from what students actually need at home and in school.",
+      "My work spans multiple audiences and products, but without a clear umbrella site it is harder to show how those tools connect into one larger vision.",
     solution:
-      "I designed a clear, accessible guide that explains language development in family-friendly language, with level explanations, support tips, and multilingual access so families can better understand their child's EAL journey.",
-    role: "I designed the concept, wrote the content, structured the user experience, and built the prototype using AI-assisted development tools.",
-    tools: "Replit, GitHub, AI-assisted coding tools, WIDA-informed planning resources",
+      "I built a central home for the Lenguaje Labs ecosystem that introduces the mission, frames the product family, and gives educators and families a clearer path into each tool.",
+    role: "I shaped the product vision, content structure, visual direction, and front-end build.",
+    tools: "GitHub Pages, Replit, AI-assisted development, content design",
     impact:
-      "Makes language development more transparent for families and creates a stronger bridge between school support and home understanding.",
+      "Creates a stronger public-facing identity for the whole ecosystem and makes it easier to understand how the tools fit together.",
+    tags: ["EAL Systems", "Teacher Tools"],
+    status: "Live site",
+  },
+  {
+    slug: "ealdesk-elementary",
+    name: "EALDesk Elementary",
+    url: "https://lenguajelabs-design.github.io/EALDesk-Elementary/",
+    summary:
+      "An elementary EAL teacher support hub with WIDA-aligned scaffolds, unit supports, language routines, and multilingual learner guidance.",
+    problem:
+      "Elementary teachers need practical EAL support, but strong scaffolds, routines, and planning tools are often scattered across folders, notes, and disconnected documents.",
+    solution:
+      "I built a focused teacher hub that gathers reading and writing scaffolds, unit supports, routines, and multilingual learner guidance into one organized place.",
+    role: "I designed the structure, shaped the instructional content, and built the product experience.",
+    tools: "GitHub Pages, Replit, WIDA-informed planning, AI-assisted development",
+    impact:
+      "Helps teachers move faster from planning to instruction while keeping multilingual learner support visible and usable.",
+    tags: ["EAL Systems", "Teacher Tools"],
+    status: "Live site",
+  },
+  {
+    slug: "multilingual-learner-family-guide",
+    name: "Multilingual Learner Family Guide",
+    url: "https://lenguajelabs-design.github.io/Multilingual-Learner-Family-Guide/",
+    summary:
+      "A family-facing WIDA guide that explains proficiency levels and practical home support ideas in English, Spanish, Chinese, and Korean.",
+    problem:
+      "Families often receive language assessment information without enough explanation. WIDA levels can feel technical, confusing, or disconnected from what support looks like at home.",
+    solution:
+      "I designed a multilingual, family-friendly guide that explains language development clearly and offers practical ways families can support growth across proficiency levels.",
+    role: "I designed the concept, wrote the content, structured the experience, and built the site.",
+    tools: "GitHub Pages, AI-assisted coding tools, multilingual content design, WIDA-informed planning resources",
+    impact:
+      "Makes language development more transparent for families and strengthens the bridge between home and school support.",
     tags: ["WIDA", "Family Communication"],
+    status: "Live site",
+  },
+  {
+    slug: "linguaflow",
+    name: "LinguaFlow",
+    url: "https://hangul-flow.replit.app/",
+    summary:
+      "An AI-powered multilingual reading practice app that generates leveled passages, supports clickable vocabulary and romanization when needed, and helps learners save and review new words across Korean, Chinese, and Spanish.",
+    problem:
+      "Learners need reading practice that is level-appropriate, language-specific, and interactive, but most tools either feel too static or do not support meaningful vocabulary review.",
+    solution:
+      "I built a reading practice app that generates tailored passages, supports on-demand word help, and gives learners a lightweight system for saving and revisiting new vocabulary.",
+    role: "I designed the product concept, reading workflow, and learner experience, then built the prototype.",
+    tools: "Replit, AI-assisted development, text generation workflows, learner-facing UX design",
+    impact:
+      "Supports more personalized reading practice and gives multilingual learners a more active way to build vocabulary over time.",
+    tags: ["AI Tools", "Literacy"],
     status: "Live prototype",
   },
   {
-    slug: "ealdesk",
-    name: "EALDesk",
+    slug: "li-li-chinese",
+    name: "Li Li Chinese",
+    url: "https://speak-chinese-now.replit.app/",
     summary:
-      "A professional hub for EAL tools, planning systems, and multilingual learner support.",
+      "A Chinese speaking practice app where learners capture words, view pinyin and meaning, hear feedback, and build a saved practice bank.",
     problem:
-      "EAL resources, planning templates, and student support systems tend to live scattered across drives, binders, and inboxes, making them hard for teachers to find and reuse.",
+      "Students learning Chinese often need frequent speaking repetition and feedback, but classroom time and existing tools do not always make that easy to sustain.",
     solution:
-      "A central, organized hub that brings together planning tools, family resources, and classroom systems in one place teachers can actually use day to day.",
-    role: "Concept design, information architecture, content, and prototype build.",
-    tools: "Replit, GitHub, AI-assisted development",
+      "I created a speaking practice tool that lets learners collect useful words, hear support, and return to saved vocabulary for repeated oral practice.",
+    role: "I designed the practice flow, learner supports, and prototype experience.",
+    tools: "Replit, speech-enabled workflows, AI-assisted development, learner-centered interaction design",
     impact:
-      "Reduces the time EAL and homeroom teachers spend hunting for support materials, and creates a foundation for school-wide adoption.",
-    tags: ["EAL Systems", "Teacher Tools"],
-    status: "In development",
+      "Makes Chinese speaking practice more repeatable, more independent, and easier to continue beyond a single lesson.",
+    tags: ["Teacher Tools", "Literacy"],
+    status: "Live prototype",
   },
   {
-    slug: "classroom-compass",
-    name: "Classroom Compass",
+    slug: "scaffold",
+    name: "Scaffold",
+    url: "https://scaffold.replit.app/",
     summary:
-      "A teacher support tool that connects student concerns to practical support strategies.",
+      "An AI-powered lesson planning assistant for multilingual learner classrooms that turns rough notes into teachable plans with objectives, supports, and sentence frames.",
     problem:
-      "When a classroom teacher notices a student struggling, it isn't always clear which language, learning, or behavioral support strategy fits the concern.",
+      "Lesson planning for multilingual learners takes time because teachers must translate good intentions into concrete objectives, scaffolds, and language supports.",
     solution:
-      "A guided tool that takes a teacher's observation and surfaces practical, classroom-ready strategies matched to that concern.",
-    role: "Concept, workflow design, and AI-assisted prototype build.",
-    tools: "Replit, AI-assisted development",
+      "I built a planning assistant that helps teachers move from rough ideas to clearer, more teachable lesson plans with multilingual learner supports built in.",
+    role: "I designed the planning workflow, instructional logic, and prototype build.",
+    tools: "Replit, AI-assisted development, lesson-planning workflows, EAL-informed instructional design",
     impact:
-      "Helps classroom teachers act quickly and confidently, with potential for school-wide use as a shared support reference.",
+      "Reduces planning friction and helps teachers produce stronger first drafts for multilingual learner instruction.",
+    tags: ["Teacher Tools", "Planning"],
+    status: "Live prototype",
+  },
+  {
+    slug: "student-support-compass",
+    name: "Student Support Compass",
+    url: "https://compass-lenguajelab.replit.app/",
+    summary:
+      "A strategy finder for student support needs, including attention, executive functioning, behavior, social skills, sensory needs, EAL overlap, and support-plan building.",
+    problem:
+      "When a student is struggling, teachers may notice the concern quickly but still need help identifying which supports are most relevant and practical.",
+    solution:
+      "I designed a support-finding tool that connects common student needs to practical strategies and helps organize thinking around next steps.",
+    role: "I created the concept, support categories, user flow, and prototype experience.",
+    tools: "Replit, AI-assisted development, support-planning workflows, educator-centered UX design",
+    impact:
+      "Helps teachers respond with more confidence and gives support planning a clearer structure.",
     tags: ["Classroom Systems", "AI Tools"],
-    status: "Prototype",
+    status: "Live prototype",
   },
   {
-    slug: "wida-planning-tools",
-    name: "WIDA Planning Tools",
+    slug: "teaching-portfolio",
+    name: "Teaching Portfolio",
+    url: "https://lenguajelabs-design.github.io/Teaching-Portfolio/",
     summary:
-      "Teacher-facing planning templates and support tools for aligning language goals, scaffolds, and student outcomes.",
+      "A public-facing portfolio that brings together my teaching background, design thinking, and growing ecosystem of educator and learner tools.",
     problem:
-      "Translating WIDA Can Do descriptors into daily lesson-level language objectives and scaffolds takes significant planning time.",
+      "As the work expanded across teaching, systems design, and AI-powered products, I needed a clearer way to present the full story in one place.",
     solution:
-      "A set of reusable planning templates that connect WIDA levels directly to language objectives, scaffolds, and student-friendly goals.",
-    role: "Designed the planning framework and built the templates from years of classroom use.",
-    tools: "WIDA Can Do Descriptors, planning frameworks, AI-assisted drafting",
+      "I built a teaching portfolio site that connects my classroom experience to the tools, systems, and product thinking that now shape my work.",
+    role: "I wrote the narrative, structured the site, directed the design, and built the front-end.",
+    tools: "GitHub Pages, React, Vite, AI-assisted development, portfolio storytelling",
     impact:
-      "Saves planning time and keeps language objectives consistent and visible across units.",
-    tags: ["WIDA", "Planning"],
-    status: "In active use",
+      "Gives the project ecosystem a clearer public home and makes the transition from teacher to builder visible.",
+    tags: ["Teacher Tools", "Planning"],
+    status: "Live site",
   },
 ];
