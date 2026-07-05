@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logoSignature from "@/assets/fo-signature-clean.png";
 
 export default function Footer() {
   return (
@@ -6,12 +7,11 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-14">
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
-            <p className="flex items-center gap-2 text-lg font-semibold text-[var(--color-ink)]">
-              <span className="brand-badge flex h-7 w-7 items-center justify-center rounded-lg text-[0.65rem] font-bold text-white">
-                FO
-              </span>
-              Federico Orozco
-            </p>
+            <img
+              src={logoSignature}
+              alt="Federico Orozco signature logo"
+              className="h-12 w-auto object-contain"
+            />
             <p className="mt-2 max-w-sm text-sm leading-relaxed text-[var(--color-ink-soft)]">
               EAL Educator, Multilingual Learning Designer, and AI Integration
               Specialist. Building practical systems for students, families,

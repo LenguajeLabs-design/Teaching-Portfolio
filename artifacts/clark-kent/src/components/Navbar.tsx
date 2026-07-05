@@ -1,6 +1,7 @@
 import { Link, useLocation } from "wouter";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import logoSignature from "@/assets/fo-signature-clean.png";
 
 const links = [
   { href: "/", label: "Home" },
@@ -19,13 +20,14 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           href="/"
-          className="flex items-center gap-2.5 text-[1.05rem] font-semibold tracking-tight text-[var(--color-ink)]"
+          className="flex items-center text-[1.05rem] font-semibold tracking-tight text-[var(--color-ink)]"
           onClick={() => setOpen(false)}
         >
-          <span className="brand-badge flex h-8 w-8 items-center justify-center rounded-lg text-xs font-bold text-white">
-            FO
-          </span>
-          Federico Orozco
+          <img
+            src={logoSignature}
+            alt="Federico Orozco signature logo"
+            className="h-11 w-auto object-contain sm:h-12"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
