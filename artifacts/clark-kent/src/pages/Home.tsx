@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { featuredProjects } from "@/data/projects";
 import { paletteFor, paletteForTag } from "@/lib/palette";
 import brushSignature from "@/assets/fo-brush-signature-black.png";
+import headshot from "@/assets/headshot.jpeg";
 import Reveal from "@/components/Reveal";
 import StatCounter from "@/components/StatCounter";
 
@@ -91,13 +92,22 @@ export default function Home() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
             whileHover={{ scale: 1.02, y: -4 }}
-            className="glass-card flex w-full max-w-md flex-shrink-0 items-center justify-center rounded-[2rem] border border-[rgba(92,157,255,0.16)] bg-[linear-gradient(180deg,rgba(11,19,36,0.98),rgba(6,10,20,0.98))] p-6 shadow-[0_24px_80px_-36px_rgba(0,0,0,0.7)] sm:p-8"
+            className="glass-card w-full max-w-md flex-shrink-0 rounded-[2rem] border border-[rgba(92,157,255,0.16)] bg-[linear-gradient(180deg,rgba(11,19,36,0.98),rgba(6,10,20,0.98))] p-6 shadow-[0_24px_80px_-36px_rgba(0,0,0,0.7)] sm:p-8"
           >
-            <img
-              src={brushSignature}
-              alt="Federico Orozco brush signature logo"
-              className="h-auto w-full object-contain"
-            />
+            <div className="flex flex-col items-center gap-5">
+              <img
+                src={headshot}
+                alt="Federico Orozco"
+                className="h-28 w-28 rounded-full border-4 border-[rgba(255,255,255,0.08)] object-cover shadow-lg sm:h-32 sm:w-32"
+              />
+              <div className="w-full rounded-[1.5rem] border border-[rgba(255,255,255,0.06)] bg-[rgba(0,0,0,0.22)] p-4 sm:p-5">
+                <img
+                  src={brushSignature}
+                  alt="Federico Orozco brush signature logo"
+                  className="h-auto w-full object-contain"
+                />
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>
