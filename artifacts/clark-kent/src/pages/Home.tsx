@@ -40,7 +40,7 @@ export default function Home() {
             Multilingual Learning · EAL Systems · AI-Assisted Education
           </p>
           <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-[var(--color-ink)] sm:text-6xl">
-            Freddie Orozco
+            Federico Orozco
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[var(--color-ink-soft)] sm:text-xl">
             I design practical, student-centered systems that help

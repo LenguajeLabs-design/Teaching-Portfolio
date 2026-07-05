@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--color-brand-600)]">
                 <GraduationCap className="h-4 w-4 text-white" />
               </span>
-              Freddie Orozco
+              Federico Orozco
             </p>
             <p className="mt-2 max-w-sm text-sm leading-relaxed text-[var(--color-ink-soft)]">
               EAL Educator, Multilingual Learning Designer, and AI Integration
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col gap-2 border-t border-[var(--color-line)] pt-6 text-xs text-[var(--color-ink-soft)] sm:flex-row sm:items-center sm:justify-between">
-          <p>&copy; {new Date().getFullYear()} Freddie Orozco. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Federico Orozco. All rights reserved.</p>
           <p>Designed for multilingual learners, families, and teachers.</p>
         </div>
       </div>

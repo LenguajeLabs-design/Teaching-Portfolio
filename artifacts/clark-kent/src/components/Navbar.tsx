@@ -25,7 +25,7 @@ export default function Navbar() {
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--color-brand-600)]">
             <GraduationCap className="h-4.5 w-4.5 text-white" />
           </span>
-          Freddie Orozco
+          Federico Orozco
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
