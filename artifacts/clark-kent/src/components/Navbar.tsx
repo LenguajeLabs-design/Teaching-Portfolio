@@ -1,7 +1,7 @@
 import { Link, useLocation } from "wouter";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import logoSignature from "@/assets/fo-signature-clean.png";
+import logoSignature from "@/assets/fo-brush-signature-black.png";
 
 const links = [
   { href: "/", label: "Home" },
@@ -25,8 +25,8 @@ export default function Navbar() {
         >
           <img
             src={logoSignature}
-            alt="Federico Orozco signature logo"
-            className="h-11 w-auto object-contain sm:h-12"
+            alt="Federico Orozco brush signature logo"
+            className="h-10 w-auto object-contain sm:h-11"
           />
         </Link>
 
