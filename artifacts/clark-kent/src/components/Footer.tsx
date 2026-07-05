@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import logoSignature from "@/assets/fo-signature-clean.png";
+import logoSignature from "@/assets/fo-brush-signature-black.png";
 
 export default function Footer() {
   return (
@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <img
               src={logoSignature}
-              alt="Federico Orozco signature logo"
-              className="h-12 w-auto object-contain"
+              alt="Federico Orozco brush signature logo"
+              className="h-14 w-auto object-contain"
             />
             <p className="mt-2 max-w-sm text-sm leading-relaxed text-[var(--color-ink-soft)]">
               EAL Educator, Multilingual Learning Designer, and AI Integration
