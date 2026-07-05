@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { featuredProjects } from "@/data/projects";
 import { paletteFor, paletteForTag } from "@/lib/palette";
-import headshot from "@/assets/headshot.jpeg";
+import brushSignature from "@/assets/fo-brush-signature-black.png";
 import Reveal from "@/components/Reveal";
 import StatCounter from "@/components/StatCounter";
 
@@ -86,15 +86,19 @@ export default function Home() {
               </Link>
             </div>
           </motion.div>
-          <motion.img
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.92, y: 12 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
-            whileHover={{ scale: 1.03 }}
-            src={headshot}
-            alt="Federico Orozco"
-            className="h-44 w-44 flex-shrink-0 rounded-full border-4 border-[var(--color-surface)] object-cover shadow-lg sm:h-56 sm:w-56"
-          />
+            whileHover={{ scale: 1.02, y: -4 }}
+            className="glass-card flex w-full max-w-md flex-shrink-0 items-center justify-center rounded-[2rem] border border-[rgba(92,157,255,0.16)] bg-[linear-gradient(180deg,rgba(11,19,36,0.98),rgba(6,10,20,0.98))] p-6 shadow-[0_24px_80px_-36px_rgba(0,0,0,0.7)] sm:p-8"
+          >
+            <img
+              src={brushSignature}
+              alt="Federico Orozco brush signature logo"
+              className="h-auto w-full object-contain"
+            />
+          </motion.div>
         </div>
       </section>
 
