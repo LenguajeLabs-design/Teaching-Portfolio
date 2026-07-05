@@ -1,0 +1,651 @@
+Freddie, your portfolio should not look like a standard “teacher résumé website.” Your strongest story is bigger than that:
+
+You are an experienced EAL teacher who designs practical systems for multilingual learners, families, teachers, and schools.
+
+That is the identity I would build around.
+
+Portfolio Concept
+
+Working title:
+
+Freddie Orozco
+Multilingual Learning, EAL Systems, and AI-Assisted Education
+
+Or, slightly more polished:
+
+Freddie Orozco
+EAL Educator | Multilingual Learning Designer | AI Integration Specialist
+
+Your portfolio should show three things clearly:
+
+1. You are an excellent EAL teacher with deep classroom experience.
+2. You build systems that make EAL support clearer for teachers, families, and students.
+3. You are moving into a leadership lane around multilingual learning, AI, and school-wide support.
+
+That is the through-line.
+
+⸻
+
+1. Recommended Site Structure
+
+Home
+
+Purpose: Make your identity clear in 10 seconds.
+
+The homepage should have:
+
+Hero section
+
+I design practical, student-centered systems that help multilingual learners grow, help families understand the language-learning journey, and help teachers make language support visible, usable, and sustainable.
+
+Buttons:
+
+View My Work
+Teaching Philosophy
+Contact Me
+
+Then include 3 feature cards:
+
+EAL Teaching
+
+15+ years supporting multilingual learners across international school contexts.
+
+WIDA-Informed Systems
+
+Tools, frameworks, family guides, planners, and language support routines.
+
+AI + Education
+
+Practical apps and workflows built to support teachers, students, and families.
+
+⸻
+
+About
+
+This should not just be a biography. It should explain your evolution.
+
+Suggested sections:
+
+My Teaching Journey
+
+Talk about your 15+ years in EAL, Korea, China, international schools, PYP, WIDA, and your focus on upper elementary multilingual learners.
+
+What I Care About
+
+Language access, family communication, student confidence, teacher clarity, writing development, and practical systems.
+
+Where My Work Is Going
+
+AI-supported teacher tools, multilingual learner planning systems, family-facing supports, and leadership in educational technology.
+
+⸻
+
+Teaching Philosophy
+
+This should be one of your strongest pages.
+
+Suggested title:
+
+Language Support Should Be Visible, Practical, and Human
+
+Core beliefs:
+
+* Multilingual learners are not “behind.” They are building language, identity, confidence, and academic access at the same time.
+* EAL support should connect students, families, classroom teachers, and school systems.
+* Home languages are assets, not obstacles.
+* Good scaffolding does not water down thinking. It opens the door to participation.
+* AI should reduce teacher friction, not replace teacher judgment.
+* Families deserve clear explanations of what language development looks like.
+
+This page can include a few short “belief cards” instead of one long essay.
+
+⸻
+
+Classroom Practice
+
+This is where you show that you are not just building apps. You are grounded in real teaching.
+
+Suggested subsections:
+
+WIDA-Aligned Instruction
+
+Show how you use WIDA levels, Can Do descriptors, language functions, language objectives, and student-friendly language goals.
+
+Artifacts to include:
+
+* WIDA level explainer
+* Language ladder
+* Can Do one-pager
+* “Why am I in EAL?” student/family explanation
+* Phase 1 language support materials
+
+Reading and Writing Support
+
+Highlight your work with:
+
+* Grade 4 and Grade 5 EAL
+* Writer’s Workshop adaptations
+* UFLI phonics intervention
+* Book clubs
+* Scaffolded reading routines
+* Sentence frames
+* Mentor texts
+* Oral rehearsal before writing
+
+Artifacts to include:
+
+* Grade 4 Phase 1 EAL writing unit
+* Dragon Masters book club lesson
+* Before and after writing samples, with names removed
+* Reading routine visuals
+* Student reflection tools
+
+Family Communication
+
+This is a major strength for you.
+
+Artifacts to include:
+
+* Monthly word banks for families
+* Parent WIDA explainer
+* Home language support tips
+* Parent PD materials
+* Translated or bilingual support documents
+
+⸻
+
+Projects
+
+This should be one of the main navigation items.
+
+I would organize your projects into cards.
+
+Multilingual Learner Family Guide
+
+A family-facing tool that explains WIDA levels, language growth, and ways families can support students at home.
+
+Include:
+
+* Screenshot
+* Link
+* Problem it solves
+* Who it helps
+* What you learned
+
+EALDesk
+
+A professional hub for EAL tools, planning systems, and multilingual learner support.
+
+Include:
+
+* Screenshot
+* Link
+* Current status
+* Future vision
+
+Classroom Compass
+
+A teacher support tool that connects student concerns to practical support strategies.
+
+Include:
+
+* Screenshot
+* Link
+* Why it matters
+* Possible school-wide use
+
+WIDA Planning Tools
+
+Teacher-facing planning templates and support tools for aligning language goals, scaffolds, and student outcomes.
+
+Include:
+
+* Planning screenshots
+* Sample output
+* Reflection
+
+AI-Assisted Educator Tools
+
+This is where you show your Replit, Codex, OpenClaw, GitHub, and vibecoding work.
+
+Frame it carefully. The point is not “I vibe coded some apps.” The point is:
+
+I use AI-assisted development to prototype practical tools that solve real problems in teaching, planning, communication, and multilingual learner support.
+
+⸻
+
+Leadership and Professional Growth
+
+This page should show you are moving toward broader impact.
+
+Include:
+
+Professional Learning
+
+* WIDA Writing Workshop at UW Madison
+* WIDA Virtual Institute
+* Harvard GSE UDL and differentiation work
+* PYP training
+* MLRC symposium
+* Parent PD
+* Staff PD on supporting EAL students
+
+Leadership Themes
+
+* Supporting new EAL team members
+* Building shared systems
+* Improving family communication
+* Translating WIDA into usable tools
+* AI implementation for teachers
+* School-wide support systems
+
+Future Direction
+
+This can be subtle but important:
+
+My current work sits at the intersection of EAL instruction, teacher collaboration, family communication, and responsible AI integration in schools.
+
+That sentence is strong.
+
+⸻
+
+Research and Reflection
+
+This page can make the portfolio feel mature and professional.
+
+Include short reflective posts or mini essays like:
+
+* What WIDA has helped me see more clearly
+* Why families need better language-learning explanations
+* What AI can and cannot do for EAL teachers
+* Why multilingual learners need access, not simplification
+* Moving from responsive support to systematic support
+* What I learned from building tools for teachers
+
+This is where your LinkedIn writing can eventually live.
+
+⸻
+
+Contact
+
+Keep it simple.
+
+Include:
+
+* Professional email
+* LinkedIn
+* GitHub
+* Optional: “Available for collaboration around EAL systems, multilingual learner support, AI-assisted teacher tools, and international school professional learning.”
+
+⸻
+
+2. Best Visual Style
+
+Your portfolio should feel:
+
+clean, warm, professional, international school, Apple-like, teacher-human, not startup-bro.
+
+Design direction:
+
+* White or very light background
+* Soft blue, slate, or teal accent
+* Rounded cards
+* Lots of spacing
+* Simple typography
+* Screenshot cards for projects
+* Small tags like WIDA, EAL, Family Communication, AI Tools, Writing Support
+* No clutter
+* No huge walls of text
+
+Think:
+
+Apple + international school faculty profile + GitHub project showcase + educator reflection blog.
+
+⸻
+
+3. Suggested Navigation
+
+Use this top menu:
+
+Home
+About
+Teaching
+Projects
+Leadership
+Writing
+Contact
+
+For a first version, you can simplify:
+
+Home
+Teaching
+Projects
+About
+Contact
+
+Start simple. Expand later.
+
+⸻
+
+4. Homepage Draft Copy
+
+Here is a polished first version you can use.
+
+Freddie Orozco
+
+Multilingual Learning, EAL Systems, and AI-Assisted Education
+
+I am an EAL educator with over 15 years of experience supporting multilingual learners in international school settings. My work focuses on helping students access language, content, identity, and confidence through practical, student-centered support.
+
+In recent years, my practice has expanded into designing tools and systems that make EAL support more visible and sustainable. I create WIDA-informed resources, family communication tools, teacher planning supports, and AI-assisted prototypes that help schools better understand and support multilingual learners.
+
+My current work sits at the intersection of EAL instruction, teacher collaboration, family communication, writing development, and responsible AI integration in education.
+
+⸻
+
+5. Project Card Template
+
+Every project should follow the same structure. This will make your portfolio feel polished and professional.
+
+For each project:
+
+Project Name
+One-sentence summary
+Problem
+Solution
+My Role
+Tools Used
+Impact or Potential Impact
+Screenshots / Link
+
+Example:
+
+Multilingual Learner Family Guide
+
+A family-facing tool designed to help parents understand WIDA levels, language growth, and practical ways to support multilingual learners at home.
+
+Problem
+
+Families often receive language assessment information without enough explanation. WIDA levels can feel technical, confusing, or disconnected from what students actually need at home and in school.
+
+Solution
+
+I designed a clear, accessible guide that explains language development in family-friendly language. The guide includes level explanations, support tips, and multilingual access so families can better understand their child’s EAL journey.
+
+My Role
+
+I designed the concept, wrote the content, structured the user experience, and built the prototype using AI-assisted development tools.
+
+Tools Used
+
+Replit, GitHub, AI-assisted coding tools, WIDA-informed planning resources
+
+Impact
+
+This project helps make language development more transparent for families and creates a stronger bridge between school support and home understanding.
+
+⸻
+
+6. The Portfolio Should Highlight These Signature Themes
+
+You do not want the site to feel like a random collection of documents. These themes should repeat throughout the portfolio.
+
+Theme 1: Making Language Learning Visible
+
+This includes WIDA, language levels, Can Do descriptors, writing goals, oral language, reading development, and family explanations.
+
+Theme 2: Building Bridges
+
+Between:
+
+* Students and academic content
+* Families and schools
+* EAL teachers and homeroom teachers
+* Assessment data and daily instruction
+* Technology and human teaching
+
+Theme 3: From Teacher to System Designer
+
+This is huge for your career story.
+
+You are not only teaching students. You are designing reusable systems:
+
+* Planning tools
+* Family guides
+* Teacher supports
+* PD materials
+* AI prototypes
+* Language support frameworks
+
+Theme 4: Responsible AI in Education
+
+Your AI angle should be practical and grounded.
+
+Not:
+
+I use AI because it is cool.
+
+But:
+
+I use AI-assisted development to prototype tools that reduce friction, improve clarity, and help educators better support multilingual learners.
+
+That is the professional version.
+
+⸻
+
+7. What to Build First in Replit
+
+Build the first version as a simple static website.
+
+Recommended stack:
+
+* React
+* Vite
+* Tailwind CSS
+* Simple JSON file for projects
+* No login
+* No database
+* No complicated backend at first
+
+Pages:
+
+1. Home
+2. Teaching
+3. Projects
+4. About
+5. Contact
+
+Later, add:
+
+* Blog/reflection page
+* Downloadable PDF résumé
+* Artifact gallery
+* Password-protected classroom samples if needed
+
+⸻
+
+8. Replit Prompt to Start Building
+
+Copy and paste this into Replit Agent or Codex:
+
+Build a clean, professional teaching portfolio website for Freddie Orozco, an EAL educator with over 15 years of experience in international schools.
+The site should feel modern, minimal, warm, and polished. Visual style: Apple-like simplicity, international school professionalism, soft blue/slate accents, rounded cards, generous spacing, and clear typography.
+Use React, Vite, and Tailwind CSS. Create a static portfolio site with these pages:
+1. Home
+2. Teaching
+3. Projects
+4. About
+5. Contact
+Core identity:
+Freddie Orozco is an EAL educator, multilingual learning designer, and AI integration specialist. His work focuses on multilingual learners, WIDA-informed support, family communication, teacher planning systems, writing development, and AI-assisted educational tools.
+Homepage requirements:
+- Hero section with name, title, and short mission statement
+- Three feature cards: EAL Teaching, WIDA-Informed Systems, AI + Education
+- Featured projects preview
+- Call-to-action buttons: View My Work, Teaching Philosophy, Contact
+Teaching page:
+Include sections for:
+- WIDA-Aligned Instruction
+- Reading and Writing Support
+- Family Communication
+- Classroom Systems and Scaffolds
+Projects page:
+Create project cards for:
+- Multilingual Learner Family Guide
+- EALDesk
+- Classroom Compass
+- WIDA Planning Tools
+- AI-Assisted Educator Tools
+Each project card should include:
+- Title
+- Short description
+- Problem
+- Solution
+- Tools used
+- Impact
+- Placeholder for screenshot
+- Placeholder for live link
+About page:
+Explain Freddie’s evolution from classroom EAL teacher to multilingual learning system designer and AI-assisted education builder.
+Contact page:
+Include simple contact form UI, LinkedIn placeholder, GitHub placeholder, and professional collaboration statement.
+Important:
+- Use placeholder links and screenshots for now.
+- Keep all text editable in a data file if possible.
+- Make the site responsive for desktop, tablet, and phone.
+- Do not overdesign it. Keep it clean, readable, and professional.
+
+⸻
+
+9. Suggested Folder Structure
+
+Ask Replit/Codex to organize it like this:
+
+src/
+  components/
+    Navbar.jsx
+    Hero.jsx
+    SectionHeader.jsx
+    ProjectCard.jsx
+    FeatureCard.jsx
+    Footer.jsx
+  data/
+    projects.js
+    teachingHighlights.js
+  pages/
+    Home.jsx
+    Teaching.jsx
+    Projects.jsx
+    About.jsx
+    Contact.jsx
+  App.jsx
+  main.jsx
+
+This will make it easier to update later.
+
+⸻
+
+10. The Artifacts You Should Gather
+
+Before building too much, create a folder called:
+
+Portfolio Artifacts
+
+Inside it, make these folders:
+
+Portfolio Artifacts/
+  01 Screenshots of Apps/
+  02 WIDA and EAL Tools/
+  03 Lesson Plans and Units/
+  04 Family Communication/
+  05 Professional Development/
+  06 Student Work Samples Redacted/
+  07 Resume and Bio/
+  08 Photos and Visuals/
+
+Start collecting:
+
+* Screenshots of your apps
+* WIDA Family Guide
+* EALDesk
+* Classroom Compass
+* Grade 4 EAL writing planner
+* Dragon Masters lesson
+* Parent PD slides
+* WIDA explainer tools
+* Monthly word bank examples
+* Language ladder
+* Can Do resources
+* Redacted student work
+* Your professional headshot or friendly classroom-style photo
+* Links to GitHub projects
+
+⸻
+
+11. Best First Version
+
+Do not try to build the perfect site first.
+
+Your first version should answer:
+
+Who are you?
+What do you believe?
+What have you built?
+What evidence shows your work?
+Where are you going professionally?
+
+That is enough.
+
+A strong first version could be:
+
+* Home
+* Teaching Practice
+* Projects
+* About
+* Contact
+
+Then later you add:
+
+* Writing
+* Leadership
+* Downloadable portfolio PDF
+* Case studies
+* Video introduction
+
+⸻
+
+12. Your Portfolio Tagline Options
+
+Here are the strongest ones:
+
+Option 1
+Making multilingual learning visible, practical, and human.
+
+Option 2
+Designing systems that help multilingual learners, families, and teachers thrive.
+
+Option 3
+EAL teaching, WIDA-informed systems, and responsible AI for education.
+
+Option 4
+From classroom practice to school-wide multilingual learning systems.
+
+My favorite for you:
+
+Making multilingual learning visible, practical, and human.
+
+It captures your work perfectly. It is warm, professional, and flexible enough to include both teaching and AI.
+
+⸻
+
+13. My Recommendation
+
+Build the portfolio around this identity:
+
+Freddie Orozco is an EAL educator and multilingual learning designer with over 15 years of experience supporting students, families, and teachers in international school settings. His work focuses on making language development visible through WIDA-informed tools, family communication systems, scaffolded instruction, writing support, and practical AI-assisted resources for educators.
+
+His current work explores how teachers can design clearer systems for multilingual learners while using technology responsibly to reduce friction, improve communication, and strengthen student support.
+
+That should be the backbone of the site.
+
+Start with a clean Replit build. Add your artifacts slowly. Treat it as a living professional identity platform, not a finished museum.
