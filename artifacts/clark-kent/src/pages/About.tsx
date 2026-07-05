@@ -84,7 +84,7 @@ export default function About() {
           </h2>
 
           <div className="mt-8 grid gap-8 sm:grid-cols-2">
-            <div className={`rounded-2xl border-t-4 ${paletteFor(0).barBorder} border border-[var(--color-line)] bg-white p-8`}>
+            <div className={`rounded-2xl border-t-4 ${paletteFor(0).barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-8`}>
               <h3 className="flex items-center gap-2.5 text-lg font-semibold text-[var(--color-ink)]">
                 <GraduationCap className={`h-5 w-5 ${paletteFor(0).icon}`} />
                 Professional Learning
@@ -99,7 +99,7 @@ export default function About() {
               </ul>
             </div>
 
-            <div className={`rounded-2xl border-t-4 ${paletteFor(2).barBorder} border border-[var(--color-line)] bg-white p-8`}>
+            <div className={`rounded-2xl border-t-4 ${paletteFor(2).barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-8`}>
               <h3 className="flex items-center gap-2.5 text-lg font-semibold text-[var(--color-ink)]">
                 <Users className={`h-5 w-5 ${paletteFor(2).icon}`} />
                 Leadership Themes

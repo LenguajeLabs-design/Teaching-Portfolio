@@ -14,7 +14,7 @@ export const palette: PaletteColor[] = [
     bg: "bg-[var(--color-brand-50)]",
     border: "border-[var(--color-brand-100)]",
     text: "text-[var(--color-brand-700)]",
-    icon: "text-[var(--color-brand-600)]",
+    icon: "text-[var(--color-brand-400)]",
     iconBg: "bg-[var(--color-brand-100)]",
     bar: "bg-[var(--color-brand-500)]",
     barBorder: "border-t-[var(--color-brand-500)]",

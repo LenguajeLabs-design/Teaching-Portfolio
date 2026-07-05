@@ -112,7 +112,7 @@ export default function Teaching() {
               return (
                 <div
                   key={section.title}
-                  className={`rounded-2xl border-l-4 ${colors.barBorderLeft} border border-[var(--color-line)] bg-white p-8`}
+                  className={`rounded-2xl border-l-4 ${colors.barBorderLeft} border border-[var(--color-line)] bg-[var(--color-surface)] p-8`}
                 >
                   <div className="flex items-start gap-4">
                     <div

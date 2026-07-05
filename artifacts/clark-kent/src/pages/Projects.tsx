@@ -20,7 +20,7 @@ export default function Projects() {
               return (
                 <article
                   key={project.slug}
-                  className={`flex flex-col rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] bg-white p-8`}
+                  className={`flex flex-col rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-8`}
                 >
                   <div className="flex items-center justify-between gap-3">
                     <div className="flex flex-wrap gap-2">

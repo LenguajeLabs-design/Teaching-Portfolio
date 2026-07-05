@@ -52,16 +52,16 @@ export default function Home() {
           <div className="mt-9 flex flex-wrap gap-3">
             <Link
               href="/projects"
-              className="inline-flex items-center gap-2 rounded-full bg-[var(--color-brand-600)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[var(--color-brand-700)]"
+              className="inline-flex items-center gap-2 rounded-full bg-[var(--color-brand-600)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:brightness-110"
             >
               View My Work
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="/teaching"
-              className="inline-flex items-center gap-2 rounded-full border border-[var(--color-line)] bg-white px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
+              className="inline-flex items-center gap-2 rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
             >
-              <GraduationCap className="h-4 w-4 text-[var(--color-brand-600)]" />
+              <GraduationCap className="h-4 w-4 text-[var(--color-brand-400)]" />
               Teaching Philosophy
             </Link>
             <Link
@@ -84,7 +84,7 @@ export default function Home() {
               return (
                 <div
                   key={card.title}
-                  className={`rounded-2xl border ${colors.border} bg-white p-8 shadow-sm`}
+                  className={`rounded-2xl border ${colors.border} bg-[var(--color-surface)] p-8 shadow-sm`}
                 >
                   <div
                     className={`flex h-12 w-12 items-center justify-center rounded-xl ${colors.iconBg}`}
@@ -130,7 +130,7 @@ export default function Home() {
               return (
                 <div
                   key={project.slug}
-                  className={`rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] bg-white p-7 transition-shadow hover:shadow-md`}
+                  className={`rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-7 transition-shadow hover:shadow-md`}
                 >
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => {
