@@ -3,53 +3,53 @@
 @theme {
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 
-  --color-ink: #f1f3fb;
-  --color-ink-soft: #99a2bd;
-  --color-paper: #05060c;
-  --color-paper-alt: #0a0d18;
-  --color-surface: #10131f;
-  --color-line: #1e2333;
+  --color-ink: #eef1f7;
+  --color-ink-soft: #8b93a8;
+  --color-paper: #0b0e17;
+  --color-paper-alt: #10141f;
+  --color-surface: #141827;
+  --color-line: #232838;
 
-  --color-brand-50: #08211d;
-  --color-brand-100: #0f342c;
-  --color-brand-200: #163f37;
-  --color-brand-300: #1c5c50;
-  --color-brand-400: #2dd4bf;
-  --color-brand-500: #14b8a6;
-  --color-brand-600: #0f766e;
-  --color-brand-700: #5eead4;
-  --color-brand-800: #042f2e;
-  --color-brand-900: #021917;
+  --color-brand-50: #0e1e1d;
+  --color-brand-100: #16302d;
+  --color-brand-200: #1f4440;
+  --color-brand-300: #2f645d;
+  --color-brand-400: #6fb3b0;
+  --color-brand-500: #5f9ea0;
+  --color-brand-600: #4d8482;
+  --color-brand-700: #9dc4c2;
+  --color-brand-800: #16302d;
+  --color-brand-900: #0e1e1d;
 
-  --color-accent-50: #170f2e;
-  --color-accent-100: #241a47;
-  --color-accent-200: #33235f;
-  --color-accent-300: #4c2889;
-  --color-accent-400: #a855f7;
-  --color-accent-500: #c084fc;
-  --color-accent-600: #d8b4fe;
-  --color-accent-700: #ede9fe;
+  --color-accent-50: #1c1420;
+  --color-accent-100: #2b1e30;
+  --color-accent-200: #3d2a44;
+  --color-accent-300: #5a3e5f;
+  --color-accent-400: #a67c9a;
+  --color-accent-500: #b892ac;
+  --color-accent-600: #cbaac0;
+  --color-accent-700: #ddc7d4;
 
-  --color-amber-50: #170f30;
-  --color-amber-100: #22184a;
-  --color-amber-200: #c4b5fd;
-  --color-amber-400: #8b5cf6;
-  --color-amber-500: #a78bfa;
-  --color-amber-700: #f3e8ff;
+  --color-amber-50: #1c1710;
+  --color-amber-100: #2c2418;
+  --color-amber-200: #cbb27a;
+  --color-amber-400: #b8955c;
+  --color-amber-500: #c9a876;
+  --color-amber-700: #ecdcb8;
 
-  --color-rose-50: #07202a;
-  --color-rose-100: #0c2f3c;
-  --color-rose-200: #67e8f9;
-  --color-rose-400: #22d3ee;
-  --color-rose-500: #67e8f9;
-  --color-rose-700: #cffafe;
+  --color-rose-50: #131720;
+  --color-rose-100: #1c2230;
+  --color-rose-200: #8fa3bf;
+  --color-rose-400: #6f88a8;
+  --color-rose-500: #8fa3bf;
+  --color-rose-700: #d3dce8;
 
-  --color-indigo-50: #140f2e;
-  --color-indigo-100: #1e1748;
-  --color-indigo-200: #2c2166;
-  --color-indigo-400: #818cf8;
-  --color-indigo-500: #a5b4fc;
-  --color-indigo-700: #e0e7ff;
+  --color-indigo-50: #161520;
+  --color-indigo-100: #221f30;
+  --color-indigo-200: #726f95;
+  --color-indigo-400: #55516f;
+  --color-indigo-500: #837fa5;
+  --color-indigo-700: #c7c5d9;
 }
 
 html,
