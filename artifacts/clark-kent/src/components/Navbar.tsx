@@ -1,6 +1,6 @@
 import { Link, useLocation } from "wouter";
 import { useState } from "react";
-import { GraduationCap } from "lucide-react";
+import { motion } from "framer-motion";
 
 const links = [
   { href: "/", label: "Home" },
@@ -19,11 +19,11 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           href="/"
-          className="flex items-center gap-2 text-[1.05rem] font-semibold tracking-tight text-[var(--color-ink)]"
+          className="flex items-center gap-2.5 text-[1.05rem] font-semibold tracking-tight text-[var(--color-ink)]"
           onClick={() => setOpen(false)}
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--color-brand-600)]">
-            <GraduationCap className="h-4.5 w-4.5 text-white" />
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--color-brand-600)] text-xs font-bold text-white">
+            FO
           </span>
           Federico Orozco
         </Link>
@@ -33,13 +33,20 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors ${
+              className={`relative pb-1 text-sm font-medium transition-colors ${
                 location === link.href
                   ? "text-[var(--color-brand-700)]"
                   : "text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
               }`}
             >
               {link.label}
+              {location === link.href && (
+                <motion.span
+                  layoutId="nav-underline"
+                  className="absolute inset-x-0 -bottom-[1px] h-[2px] rounded-full bg-[var(--color-brand-500)]"
+                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                />
+              )}
             </Link>
           ))}
         </nav>

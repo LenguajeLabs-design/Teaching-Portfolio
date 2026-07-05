@@ -1,34 +1,34 @@
 import { Link } from "wouter";
-import {
-  ArrowRight,
-  GraduationCap,
-  Layers,
-  MessageCircleHeart,
-  Sparkles,
-} from "lucide-react";
+import { motion } from "framer-motion";
 import { projects } from "@/data/projects";
 import { paletteFor, paletteForTag } from "@/lib/palette";
 import headshot from "@/assets/headshot.jpeg";
+import Reveal from "@/components/Reveal";
+import StatCounter from "@/components/StatCounter";
 
 const featureCards = [
   {
     title: "EAL Teaching",
     description:
       "15+ years supporting multilingual learners across international school contexts.",
-    icon: GraduationCap,
   },
   {
     title: "WIDA-Informed Systems",
     description:
       "Tools, frameworks, family guides, planners, and language support routines.",
-    icon: Layers,
   },
   {
     title: "AI + Education",
     description:
       "Practical apps and workflows built to support teachers, students, and families.",
-    icon: Sparkles,
   },
+];
+
+const stats = [
+  { value: 15, suffix: "+", label: "Years in EAL classrooms" },
+  { value: 4, suffix: "", label: "Systems designed & built" },
+  { value: 2, suffix: "", label: "Countries taught in" },
+  { value: 100, suffix: "%", label: "Student-centered design" },
 ];
 
 export default function Home() {
@@ -36,9 +36,13 @@ export default function Home() {
     <>
       <section className="border-b border-[var(--color-line)] bg-gradient-to-b from-[var(--color-brand-50)] via-[var(--color-paper)] to-[var(--color-paper)]">
         <div className="mx-auto flex max-w-6xl flex-col-reverse items-center gap-12 px-6 py-24 sm:flex-row sm:items-center sm:justify-between sm:py-28">
-          <div className="flex-1">
-            <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-600)]">
-              <Sparkles className="h-3.5 w-3.5" />
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="flex-1"
+          >
+            <p className="text-xs font-semibold uppercase tracking-widest text-[var(--color-brand-600)]">
               Multilingual Learning · EAL Systems · AI-Assisted Education
             </p>
             <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-[var(--color-ink)] sm:text-6xl">
@@ -52,34 +56,55 @@ export default function Home() {
             </p>
 
             <div className="mt-9 flex flex-wrap gap-3">
-              <Link
-                href="/projects"
-                className="inline-flex items-center gap-2 rounded-full bg-[var(--color-brand-600)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:brightness-110"
-              >
-                View My Work
-                <ArrowRight className="h-4 w-4" />
+              <Link href="/projects">
+                <motion.span
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-[var(--color-brand-600)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:brightness-110"
+                >
+                  View My Work
+                  <span aria-hidden>→</span>
+                </motion.span>
               </Link>
-              <Link
-                href="/teaching"
-                className="inline-flex items-center gap-2 rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
-              >
-                <GraduationCap className="h-4 w-4 text-[var(--color-brand-400)]" />
-                Teaching Philosophy
+              <Link href="/teaching">
+                <motion.span
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
+                >
+                  Teaching Philosophy
+                </motion.span>
               </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-brand-700)]"
-              >
-                <MessageCircleHeart className="h-4 w-4" />
-                Contact Me
+              <Link href="/contact">
+                <motion.span
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="inline-flex cursor-pointer items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-brand-700)]"
+                >
+                  Contact Me
+                </motion.span>
               </Link>
             </div>
-          </div>
-          <img
+          </motion.div>
+          <motion.img
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+            whileHover={{ scale: 1.03 }}
             src={headshot}
             alt="Federico Orozco"
             className="h-44 w-44 flex-shrink-0 rounded-full border-4 border-[var(--color-surface)] object-cover shadow-lg sm:h-56 sm:w-56"
           />
+        </div>
+      </section>
+
+      <section className="border-b border-[var(--color-line)] bg-[var(--color-paper)]">
+        <div className="mx-auto max-w-6xl px-6 py-14">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+            {stats.map((stat) => (
+              <StatCounter key={stat.label} {...stat} />
+            ))}
+          </div>
         </div>
       </section>
 
@@ -88,24 +113,24 @@ export default function Home() {
           <div className="grid gap-6 sm:grid-cols-3">
             {featureCards.map((card, i) => {
               const colors = paletteFor(i);
-              const Icon = card.icon;
               return (
-                <div
-                  key={card.title}
-                  className={`rounded-2xl border ${colors.border} bg-[var(--color-surface)] p-8 shadow-sm`}
-                >
-                  <div
-                    className={`flex h-12 w-12 items-center justify-center rounded-xl ${colors.iconBg}`}
+                <Reveal key={card.title} delay={i * 0.08}>
+                  <motion.div
+                    whileHover={{ y: -6 }}
+                    transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                    className={`h-full rounded-2xl border ${colors.border} bg-[var(--color-surface)] p-8 shadow-sm`}
                   >
-                    <Icon className={`h-6 w-6 ${colors.icon}`} />
-                  </div>
-                  <h3 className="mt-5 text-lg font-semibold text-[var(--color-ink)]">
-                    {card.title}
-                  </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-[var(--color-ink-soft)]">
-                    {card.description}
-                  </p>
-                </div>
+                    <span className={`text-sm font-semibold ${colors.text}`}>
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <h3 className="mt-3 text-lg font-semibold text-[var(--color-ink)]">
+                      {card.title}
+                    </h3>
+                    <p className="mt-3 text-sm leading-relaxed text-[var(--color-ink-soft)]">
+                      {card.description}
+                    </p>
+                  </motion.div>
+                </Reveal>
               );
             })}
           </div>
@@ -128,7 +153,7 @@ export default function Home() {
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--color-brand-700)] hover:underline"
             >
               See all projects
-              <ArrowRight className="h-4 w-4" />
+              <span aria-hidden>→</span>
             </Link>
           </div>
 
@@ -136,30 +161,33 @@ export default function Home() {
             {projects.slice(0, 4).map((project, i) => {
               const colors = paletteFor(i);
               return (
-                <div
-                  key={project.slug}
-                  className={`rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-7 transition-shadow hover:shadow-md`}
-                >
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag) => {
-                      const tagColors = paletteForTag(tag);
-                      return (
-                        <span
-                          key={tag}
-                          className={`tag-pill ${tagColors.bg} ${tagColors.text} ${tagColors.border}`}
-                        >
-                          {tag}
-                        </span>
-                      );
-                    })}
-                  </div>
-                  <h3 className="mt-4 text-xl font-semibold text-[var(--color-ink)]">
-                    {project.name}
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-[var(--color-ink-soft)]">
-                    {project.summary}
-                  </p>
-                </div>
+                <Reveal key={project.slug} delay={i * 0.06}>
+                  <motion.div
+                    whileHover={{ y: -6, boxShadow: "0 12px 30px -12px rgba(0,0,0,0.35)" }}
+                    transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                    className={`h-full rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-7`}
+                  >
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.map((tag) => {
+                        const tagColors = paletteForTag(tag);
+                        return (
+                          <span
+                            key={tag}
+                            className={`tag-pill ${tagColors.bg} ${tagColors.text} ${tagColors.border}`}
+                          >
+                            {tag}
+                          </span>
+                        );
+                      })}
+                    </div>
+                    <h3 className="mt-4 text-xl font-semibold text-[var(--color-ink)]">
+                      {project.name}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-[var(--color-ink-soft)]">
+                      {project.summary}
+                    </p>
+                  </motion.div>
+                </Reveal>
               );
             })}
           </div>
@@ -167,14 +195,13 @@ export default function Home() {
       </section>
 
       <section className="border-t border-[var(--color-line)] bg-gradient-to-br from-[var(--color-brand-800)] to-[var(--color-brand-900)]">
-        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
-          <Sparkles className="mx-auto h-8 w-8 text-[var(--color-amber-200)]" />
-          <p className="mt-5 text-2xl font-medium leading-relaxed text-white sm:text-3xl">
+        <Reveal className="mx-auto max-w-4xl px-6 py-20 text-center">
+          <p className="text-2xl font-medium leading-relaxed text-white sm:text-3xl">
             My current work sits at the intersection of EAL instruction,
             teacher collaboration, family communication, writing development,
             and responsible AI integration in education.
           </p>
-        </div>
+        </Reveal>
       </section>
     </>
   );

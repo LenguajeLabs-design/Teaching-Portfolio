@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import { GraduationCap, Github, Linkedin, Mail, Globe } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,8 +7,8 @@ export default function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
             <p className="flex items-center gap-2 text-lg font-semibold text-[var(--color-ink)]">
-              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--color-brand-600)]">
-                <GraduationCap className="h-4 w-4 text-white" />
+              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--color-brand-600)] text-[0.65rem] font-bold text-white">
+                FO
               </span>
               Federico Orozco
             </p>
@@ -49,8 +48,7 @@ export default function Footer() {
               </p>
               <ul className="mt-3 space-y-2 text-sm">
                 <li>
-                  <Link href="/contact" className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
-                    <Mail className="h-3.5 w-3.5" />
+                  <Link href="/contact" className="text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
                     Contact
                   </Link>
                 </li>
@@ -59,9 +57,8 @@ export default function Footer() {
                     href="https://www.linkedin.com/in/federico-orozco-687b5431/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
+                    className="text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
                   >
-                    <Linkedin className="h-3.5 w-3.5" />
                     LinkedIn
                   </a>
                 </li>
@@ -70,9 +67,8 @@ export default function Footer() {
                     href="https://github.com/LenguajeLabs-design"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
+                    className="text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
                   >
-                    <Github className="h-3.5 w-3.5" />
                     GitHub
                   </a>
                 </li>
@@ -81,9 +77,8 @@ export default function Footer() {
                     href="https://lenguajelabs-design.github.io/lenguaje-labs-site/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
+                    className="text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
                   >
-                    <Globe className="h-3.5 w-3.5" />
                     Lenguaje Labs
                   </a>
                 </li>
