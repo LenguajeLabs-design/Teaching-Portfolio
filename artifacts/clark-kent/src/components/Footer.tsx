@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { GraduationCap, Github, Linkedin, Mail } from "lucide-react";
+import { GraduationCap, Github, Linkedin, Mail, Globe } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -55,15 +55,36 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                  <a
+                    href="https://www.linkedin.com/in/federico-orozco-687b5431/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
+                  >
                     <Linkedin className="h-3.5 w-3.5" />
                     LinkedIn
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]">
+                  <a
+                    href="https://github.com/LenguajeLabs-design"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
+                  >
                     <Github className="h-3.5 w-3.5" />
                     GitHub
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://lenguajelabs-design.github.io/lenguaje-labs-site/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-[var(--color-ink-soft)] hover:text-[var(--color-brand-700)]"
+                  >
+                    <Globe className="h-3.5 w-3.5" />
+                    Lenguaje Labs
                   </a>
                 </li>
               </ul>

@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Sparkles } from "lucide-react";
+import { Mail, Linkedin, Github, Globe, Sparkles } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { paletteFor } from "@/lib/palette";
 
@@ -6,20 +6,26 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@freddieorozco.com",
-    href: "mailto:hello@freddieorozco.com",
+    value: "forozc1@gmail.com",
+    href: "mailto:forozc1@gmail.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/freddieorozco",
-    href: "#",
+    value: "linkedin.com/in/federico-orozco-687b5431",
+    href: "https://www.linkedin.com/in/federico-orozco-687b5431/",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/freddieorozco",
-    href: "#",
+    value: "github.com/LenguajeLabs-design",
+    href: "https://github.com/LenguajeLabs-design",
+  },
+  {
+    icon: Globe,
+    label: "Lenguaje Labs",
+    value: "lenguajelabs-design.github.io/lenguaje-labs-site",
+    href: "https://lenguajelabs-design.github.io/lenguaje-labs-site/",
   },
 ];
 
