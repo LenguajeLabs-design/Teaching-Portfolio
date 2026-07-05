@@ -167,7 +167,33 @@ export default function Home() {
                     transition={{ type: "spring", stiffness: 300, damping: 20 }}
                     className={`glass-card h-full rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] p-7`}
                   >
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex items-center justify-between gap-4">
+                      <div className="flex items-center gap-3">
+                        <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[rgba(255,255,255,0.04)] p-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
+                          {project.logoUrl ? (
+                            <img
+                              src={project.logoUrl}
+                              alt={`${project.name} logo`}
+                              className="h-full w-full object-contain"
+                              loading="lazy"
+                            />
+                          ) : (
+                            <span className="text-sm font-semibold text-[var(--color-ink)]">
+                              {project.name.slice(0, 2).toUpperCase()}
+                            </span>
+                          )}
+                        </div>
+                        <div>
+                          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--color-ink-soft)]">
+                            Featured Tool
+                          </p>
+                          <p className="mt-1 text-sm text-[var(--color-ink-soft)]">
+                            {project.status}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mt-5 flex flex-wrap gap-2">
                       {project.tags.map((tag) => {
                         const tagColors = paletteForTag(tag);
                         return (

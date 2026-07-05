@@ -2,6 +2,7 @@ export interface Project {
   slug: string;
   name: string;
   url: string;
+  logoUrl?: string;
   featured?: boolean;
   summary: string;
   problem: string;
@@ -18,6 +19,7 @@ export const projects: Project[] = [
     slug: "lenguaje-labs",
     name: "Lenguaje Labs",
     url: "https://lenguajelabs-design.github.io/lenguaje-labs-site/",
+    logoUrl: "https://lenguajelabs-design.github.io/lenguaje-labs-site/favicon.png",
     featured: true,
     summary:
       "The main Lenguaje Labs site bringing together AI-powered tools and systems for educators, multilingual learners, and families.",
@@ -36,6 +38,7 @@ export const projects: Project[] = [
     slug: "ealdesk-elementary",
     name: "EALDesk Elementary",
     url: "https://lenguajelabs-design.github.io/EALDesk-Elementary/",
+    logoUrl: "https://lenguajelabs-design.github.io/EALDesk-Elementary/favicon.svg?v=lenguaje-labs",
     featured: true,
     summary:
       "An elementary EAL teacher support hub with WIDA-aligned scaffolds, unit supports, language routines, and multilingual learner guidance.",
@@ -54,6 +57,7 @@ export const projects: Project[] = [
     slug: "multilingual-learner-family-guide",
     name: "Multilingual Learner Family Guide",
     url: "https://lenguajelabs-design.github.io/Multilingual-Learner-Family-Guide/",
+    logoUrl: "https://lenguajelabs-design.github.io/Multilingual-Learner-Family-Guide/favicon.png",
     featured: true,
     summary:
       "A family-facing WIDA guide that explains proficiency levels and practical home support ideas in English, Spanish, Chinese, and Korean.",
@@ -72,6 +76,7 @@ export const projects: Project[] = [
     slug: "linguaflow",
     name: "LinguaFlow",
     url: "https://hangul-flow.replit.app/",
+    logoUrl: "https://hangul-flow.replit.app/hangul-flow-icon.png",
     featured: true,
     summary:
       "An AI-powered multilingual reading practice app that generates leveled passages, supports clickable vocabulary and romanization when needed, and helps learners save and review new words across Korean, Chinese, and Spanish.",
@@ -90,6 +95,7 @@ export const projects: Project[] = [
     slug: "li-li-chinese",
     name: "Li Li Chinese",
     url: "https://speak-chinese-now.replit.app/",
+    logoUrl: "https://speak-chinese-now.replit.app/lili-logo.png",
     summary:
       "A Chinese speaking practice app where learners capture words, view pinyin and meaning, hear feedback, and build a saved practice bank.",
     problem:
@@ -107,6 +113,7 @@ export const projects: Project[] = [
     slug: "scaffold",
     name: "Scaffold",
     url: "https://scaffold.replit.app/",
+    logoUrl: "https://scaffold.replit.app/icon-512.png",
     summary:
       "An AI-powered lesson planning assistant for multilingual learner classrooms that turns rough notes into teachable plans with objectives, supports, and sentence frames.",
     problem:
@@ -124,6 +131,7 @@ export const projects: Project[] = [
     slug: "student-support-compass",
     name: "Student Support Compass",
     url: "https://compass-lenguajelab.replit.app/",
+    logoUrl: "https://compass-lenguajelab.replit.app/favicon.svg",
     summary:
       "A strategy finder for student support needs, including attention, executive functioning, behavior, social skills, sensory needs, EAL overlap, and support-plan building.",
     problem:
