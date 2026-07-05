@@ -40,7 +40,7 @@ export default function Contact() {
 
       <section className="bg-[var(--color-paper)]">
         <div className="mx-auto max-w-2xl px-6 py-16">
-          <div className="rounded-2xl border border-[var(--color-line)] bg-[var(--color-paper-alt)] p-10">
+          <div className="glass-card rounded-2xl border border-[var(--color-line)] p-10">
             <div className="space-y-5">
               {contactMethods.map((method, i) => {
                 const colors = paletteFor(i);

@@ -34,7 +34,7 @@ const stats = [
 export default function Home() {
   return (
     <>
-      <section className="border-b border-[var(--color-line)] bg-gradient-to-b from-[var(--color-brand-50)] via-[var(--color-paper)] to-[var(--color-paper)]">
+      <section className="site-aurora border-b border-[var(--color-line)]">
         <div className="mx-auto flex max-w-6xl flex-col-reverse items-center gap-12 px-6 py-24 sm:flex-row sm:items-center sm:justify-between sm:py-28">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -60,7 +60,7 @@ export default function Home() {
                 <motion.span
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.97 }}
-                  className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-[var(--color-brand-600)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:brightness-110"
+                  className="button-primary-glow inline-flex cursor-pointer items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition-transform hover:brightness-110"
                 >
                   View My Work
                   <span aria-hidden>→</span>
@@ -70,7 +70,7 @@ export default function Home() {
                 <motion.span
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.97 }}
-                  className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
+                  className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-[rgba(92,157,255,0.18)] bg-[rgba(17,28,50,0.86)] px-6 py-3 text-sm font-semibold text-[var(--color-ink)] transition-colors hover:border-[var(--color-brand-300)]"
                 >
                   Teaching Philosophy
                 </motion.span>
@@ -118,7 +118,7 @@ export default function Home() {
                   <motion.div
                     whileHover={{ y: -6 }}
                     transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                    className={`h-full rounded-2xl border ${colors.border} bg-[var(--color-surface)] p-8 shadow-sm`}
+                    className={`glass-card h-full rounded-2xl border ${colors.border} p-8`}
                   >
                     <span className={`text-sm font-semibold ${colors.text}`}>
                       {String(i + 1).padStart(2, "0")}
@@ -165,7 +165,7 @@ export default function Home() {
                   <motion.div
                     whileHover={{ y: -6, boxShadow: "0 12px 30px -12px rgba(0,0,0,0.35)" }}
                     transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                    className={`h-full rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-7`}
+                    className={`glass-card h-full rounded-2xl border-t-4 ${colors.barBorder} border border-[var(--color-line)] p-7`}
                   >
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag) => {
@@ -194,7 +194,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t border-[var(--color-line)] bg-gradient-to-br from-[var(--color-brand-800)] to-[var(--color-brand-900)]">
+      <section className="border-t border-[var(--color-line)] bg-[linear-gradient(135deg,var(--color-brand-900),var(--color-paper-alt),var(--color-accent-100))]">
         <Reveal className="mx-auto max-w-4xl px-6 py-20 text-center">
           <p className="text-2xl font-medium leading-relaxed text-white sm:text-3xl">
             My current work sits at the intersection of EAL instruction,

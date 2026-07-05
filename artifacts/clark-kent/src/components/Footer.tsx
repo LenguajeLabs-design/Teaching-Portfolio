@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
             <p className="flex items-center gap-2 text-lg font-semibold text-[var(--color-ink)]">
-              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--color-brand-600)] text-[0.65rem] font-bold text-white">
+              <span className="brand-badge flex h-7 w-7 items-center justify-center rounded-lg text-[0.65rem] font-bold text-white">
                 FO
               </span>
               Federico Orozco

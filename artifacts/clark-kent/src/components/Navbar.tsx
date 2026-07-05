@@ -15,14 +15,14 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--color-line)] bg-[var(--color-paper)]/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-[var(--color-line)] bg-[rgba(7,13,25,0.84)] backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           href="/"
           className="flex items-center gap-2.5 text-[1.05rem] font-semibold tracking-tight text-[var(--color-ink)]"
           onClick={() => setOpen(false)}
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--color-brand-600)] text-xs font-bold text-white">
+          <span className="brand-badge flex h-8 w-8 items-center justify-center rounded-lg text-xs font-bold text-white">
             FO
           </span>
           Federico Orozco

@@ -3,53 +3,53 @@
 @theme {
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", Helvetica, Arial, sans-serif;
 
-  --color-ink: #eef1f7;
-  --color-ink-soft: #8b93a8;
-  --color-paper: #0b0e17;
-  --color-paper-alt: #10141f;
-  --color-surface: #141827;
-  --color-line: #232838;
+  --color-ink: #eef4ff;
+  --color-ink-soft: #94a3bf;
+  --color-paper: #070d19;
+  --color-paper-alt: #0c1528;
+  --color-surface: #111c32;
+  --color-line: #213252;
 
-  --color-brand-50: #0e1e1d;
-  --color-brand-100: #16302d;
-  --color-brand-200: #1f4440;
-  --color-brand-300: #2f645d;
-  --color-brand-400: #6fb3b0;
-  --color-brand-500: #5f9ea0;
-  --color-brand-600: #4d8482;
-  --color-brand-700: #9dc4c2;
-  --color-brand-800: #16302d;
-  --color-brand-900: #0e1e1d;
+  --color-brand-50: #0d1730;
+  --color-brand-100: #132449;
+  --color-brand-200: #193664;
+  --color-brand-300: #255194;
+  --color-brand-400: #2f6fda;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #5c9dff;
+  --color-brand-700: #b6d1ff;
+  --color-brand-800: #0f234b;
+  --color-brand-900: #09142a;
 
-  --color-accent-50: #1c1420;
-  --color-accent-100: #2b1e30;
-  --color-accent-200: #3d2a44;
-  --color-accent-300: #5a3e5f;
-  --color-accent-400: #a67c9a;
-  --color-accent-500: #b892ac;
-  --color-accent-600: #cbaac0;
-  --color-accent-700: #ddc7d4;
+  --color-accent-50: #0f1f27;
+  --color-accent-100: #17323d;
+  --color-accent-200: #245364;
+  --color-accent-300: #337992;
+  --color-accent-400: #4ca8c9;
+  --color-accent-500: #69bdd9;
+  --color-accent-600: #8cd1e8;
+  --color-accent-700: #c9edf8;
 
-  --color-amber-50: #1c1710;
-  --color-amber-100: #2c2418;
-  --color-amber-200: #cbb27a;
-  --color-amber-400: #b8955c;
-  --color-amber-500: #c9a876;
-  --color-amber-700: #ecdcb8;
+  --color-amber-50: #1a1710;
+  --color-amber-100: #322718;
+  --color-amber-200: #6e5632;
+  --color-amber-400: #b98c52;
+  --color-amber-500: #d5a96b;
+  --color-amber-700: #f2dcc0;
 
-  --color-rose-50: #131720;
-  --color-rose-100: #1c2230;
-  --color-rose-200: #8fa3bf;
-  --color-rose-400: #6f88a8;
-  --color-rose-500: #8fa3bf;
-  --color-rose-700: #d3dce8;
+  --color-rose-50: #121a2c;
+  --color-rose-100: #1c2b43;
+  --color-rose-200: #365177;
+  --color-rose-400: #6e8fc1;
+  --color-rose-500: #8eaede;
+  --color-rose-700: #d8e6ff;
 
-  --color-indigo-50: #161520;
-  --color-indigo-100: #221f30;
-  --color-indigo-200: #726f95;
-  --color-indigo-400: #55516f;
-  --color-indigo-500: #837fa5;
-  --color-indigo-700: #c7c5d9;
+  --color-indigo-50: #111826;
+  --color-indigo-100: #1a2740;
+  --color-indigo-200: #304669;
+  --color-indigo-400: #6585bb;
+  --color-indigo-500: #83a4dd;
+  --color-indigo-700: #d0def8;
 }
 
 html,
@@ -58,7 +58,10 @@ body,
   margin: 0;
   padding: 0;
   width: 100%;
-  background: var(--color-paper);
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.18), transparent 28rem),
+    radial-gradient(circle at 85% 10%, rgba(76, 168, 201, 0.12), transparent 22rem),
+    linear-gradient(180deg, #09111f 0%, var(--color-paper) 30%);
   color: var(--color-ink);
   font-family: var(--font-sans);
   scroll-behavior: smooth;
@@ -82,7 +85,36 @@ body,
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background: var(--color-brand-50);
+  background: rgba(17, 28, 50, 0.9);
   color: var(--color-brand-700);
-  border: 1px solid var(--color-brand-100);
+  border: 1px solid rgba(92, 157, 255, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.site-aurora {
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.18), transparent 24rem),
+    radial-gradient(circle at top right, rgba(76, 168, 201, 0.12), transparent 20rem),
+    linear-gradient(180deg, rgba(12, 21, 40, 0.98), rgba(7, 13, 25, 0.98));
+}
+
+.glass-card {
+  background:
+    linear-gradient(180deg, rgba(17, 28, 50, 0.92), rgba(12, 21, 40, 0.92));
+  border-color: rgba(92, 157, 255, 0.14);
+  box-shadow:
+    0 18px 48px rgba(2, 8, 23, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+}
+
+.brand-badge {
+  background:
+    linear-gradient(135deg, var(--color-accent-400), var(--color-brand-500));
+  box-shadow: 0 12px 28px rgba(59, 130, 246, 0.28);
+}
+
+.button-primary-glow {
+  background: linear-gradient(135deg, var(--color-brand-400), var(--color-brand-600));
+  box-shadow: 0 14px 30px rgba(59, 130, 246, 0.24);
 }

@@ -43,7 +43,7 @@ const leadership = [
 export default function About() {
   return (
     <>
-      <section className="border-b border-[var(--color-line)] bg-gradient-to-b from-[var(--color-brand-50)] to-[var(--color-paper-alt)]">
+      <section className="site-aurora border-b border-[var(--color-line)]">
         <div className="mx-auto flex max-w-6xl flex-col-reverse items-center gap-10 px-6 py-20 sm:flex-row sm:items-center sm:justify-between">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -113,7 +113,7 @@ export default function About() {
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                className={`h-full rounded-2xl border-t-4 ${paletteFor(0).barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-8`}
+                className={`glass-card h-full rounded-2xl border-t-4 ${paletteFor(0).barBorder} border border-[var(--color-line)] p-8`}
               >
                 <h3 className="text-lg font-semibold text-[var(--color-ink)]">
                   Professional Learning
@@ -133,7 +133,7 @@ export default function About() {
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                className={`h-full rounded-2xl border-t-4 ${paletteFor(2).barBorder} border border-[var(--color-line)] bg-[var(--color-surface)] p-8`}
+                className={`glass-card h-full rounded-2xl border-t-4 ${paletteFor(2).barBorder} border border-[var(--color-line)] p-8`}
               >
                 <h3 className="text-lg font-semibold text-[var(--color-ink)]">
                   Leadership Themes

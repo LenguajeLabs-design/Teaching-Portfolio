@@ -91,7 +91,7 @@ export default function Teaching() {
                   <motion.div
                     whileHover={{ y: -4 }}
                     transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                    className={`h-full rounded-2xl border ${colors.border} ${colors.bg} p-6 text-sm leading-relaxed text-[var(--color-ink-soft)]`}
+                    className={`glass-card h-full rounded-2xl border ${colors.border} ${colors.bg} p-6 text-sm leading-relaxed text-[var(--color-ink-soft)]`}
                   >
                     {belief}
                   </motion.div>
@@ -117,7 +117,7 @@ export default function Teaching() {
               return (
                 <Reveal key={section.title} delay={i * 0.05}>
                   <div
-                    className={`overflow-hidden rounded-2xl border-l-4 ${colors.barBorderLeft} border border-[var(--color-line)] bg-[var(--color-surface)]`}
+                    className={`glass-card overflow-hidden rounded-2xl border-l-4 ${colors.barBorderLeft} border border-[var(--color-line)]`}
                   >
                     <button
                       type="button"
